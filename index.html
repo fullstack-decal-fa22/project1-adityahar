@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title id="title">Aditya Hariharan | Personal Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aditya Hariharan">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div class="flex-outer">
+      <div class="flex-logo">
+        <div><img class="logo" src="ah.png" alt=""></div>
+      </div>
+      <div class="flex-btn">
+        <a class="nm-btn" href="#projects">Projects</a>
+        <a class="nm-btn" href="https://linkedin.com/in/adityahh" target="_blank">LinkedIn</a>
+        <a class="nm-btn" href="https://twitter.com/adityahar1" target="_blank">Twitter</a>
+        <a class="nm-btn" href="https://vsco.co/adityahariharan" target="_blank">VSCO</a>
+      </div>
+    </div>
+    <div class="flex-vert">
+      <h1 id="titletext">Hey, I'm Aditya!👋</h1>
+      <div class="center-align"><img class="image" src="adityaphoto.png" alt=""></div>
+      <h2 class="normal">I'm a student at UC Berkeley studying Computer Science</h2>
+      <h3 class="third">Check out some of my projects and work!</h3>
+    </div>
+    <div id="projects">
+      <div class="grid">
+        <div class="grid-item"><h4 class="p-text">Photography</h4></div>
+        <div class="grid-item"><h4 class="p-text">Consulting</h4></div>
+        <div class="grid-item"><h4 class="p-text">Startup</h4></div>
+        <div class="grid-item"><a target="_blank" href="https://drive.google.com/drive/folders/1lHYQMXdbrji_EbvsaXUKRb-sMiNZ7R-5?usp=share_link"><img class="image" src="sedona.png" alt=""></a></div>
+        <div class="grid-item"><a href="https://phoenix.berkeley.edu/" target="_blank"><img class="image" src="phoenix.jpg" alt=""></a></div>
+        <div class="grid-item"><a target="_blank" href="https://www.getannouncr.com/"><img class="image" src="announcr-new.png" alt=""></a></div>
+        <div class="grid-item"><h6 class="body">I love capturing the world from my own eyes - my camera is a Canon EOS M6 Mark II.</h6></div>
+        <div class="grid-item"><h6 class="body">I'm a part of Phoenix Consulting at UC Berkeley - check out what we do!</h6></div>
+        <div class="grid-item"><h6 class="body">My startup, Announcr, focuses on subtle adverting techniques in influencer marketing.</h6></div>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="flex-vert">
+        <h5 class="contact">Contact Me!</h5>
+        <form action="https://youtu.be/dQw4w9WgXcQ">
+          <label for="fname">First Name</label><br>
+          <input type="text" id="fname" name="fname"><br><br>
+          <label for="fname">Last Name</label><br>
+          <input type="text" id="lname" name="lname"><br><br>
+          <label for="fname">Email</label><br>
+          <input type="text" id="email" name="email"><br><br>
+          <label for="lname">Message</label><br>
+          <input type="text" id="message" name="message"><br><br><br>
+          <input id="submit" type="submit" value="Submit">
+        </form>
+        <h5 class="contact">Or check out my Instagram!</h5>
+        <button id="insta-button">Instagram</button>
+      </div>
+    </div>
+    <script type="text/javascript">
+      function myInsta(){
+        window.open("https://www.instagram.com/aditya.hariharan/");
+      }
+      document.getElementById("insta-button").onclick = myInsta;
+    </script>
+  </body>
+</html>
